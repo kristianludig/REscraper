@@ -8,7 +8,6 @@
 import scrapy
 
 class Unit(scrapy.Item):
-    company = scrapy.Field()
     address = scrapy.Field()
     bedrooms = scrapy.Field()
     rent = scrapy.Field()
